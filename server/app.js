@@ -27,15 +27,13 @@ const port = process.env.PORT || 8080;
 const baseURL = process.env.BASE_URL;
 
 // DB connection and app lisening 
-app.listen(port,() => {
-  console.log(`Server started at ${baseURL}`.bgCyan.white)
-})
-
 const db = await mongoose.connect(process.env.MONGODB_URL);
 try{
   if(db){
       console.log(`Connected to DB`.bgMagenta.white);
-      }
+      app.listen(port,() => {
+        console.log(`Server started at ${baseURL}`.bgCyan.white)
+  })}
 }
 catch(err){
     console.log("Error in connection of DB", err);
