@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "npm i bcrypt colors nodemon morgan mongoose express dotenv cors"
   },
   "author": "Anurag Lohar",
   "license": "ISC",
