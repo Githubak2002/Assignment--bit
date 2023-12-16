@@ -24,6 +24,16 @@ all other files are for backend.
 <!-- vercel.json
 
 {
+
+
+  
+{
+  "rewrites": [
+    {"source": "/(.*)", "destination": "/"}
+  ]
+}
+
+
   "versio":2,
   "builds":[
     {
