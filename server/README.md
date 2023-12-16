@@ -16,3 +16,29 @@ all other files are for backend.
 
 
 -->
+
+
+<!-- vercel.json
+
+{
+  "versio":2,
+  "builds":[
+    {
+      "src":"*.js",
+      "use":"@vercel/node"
+    }
+  ],
+  "routes":[
+    {
+      "src":"/(.*)",
+      "dest":"/"
+    }
+  ]
+}
+
+
+
+
+
+prev content was
+ -->
