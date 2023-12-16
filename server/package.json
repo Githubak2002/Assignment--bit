@@ -1,7 +1,7 @@
 {
   "name": "bit-assignment",
   "version": "1.0.0",
-  "description": "client - frontend folder\r all other files are for backend.",
+  "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
