@@ -17,7 +17,10 @@ all other files are for backend.
 
 -->
 
+<!-- build
+    "build": "npm i bcrypt colors nodemon morgan mongoose express dotenv cors"
 
+ -->
 <!-- vercel.json
 
 {
