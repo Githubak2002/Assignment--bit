@@ -1,7 +1,7 @@
 {
-  "name": "simple-blog-app",
+  "name": "bit-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "client - frontend folder\r all other files are for backend.",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -19,5 +19,7 @@
     "mongoose": "^8.0.0",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
