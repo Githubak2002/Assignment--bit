@@ -9,13 +9,16 @@ Responsive
 Simple Login, Register and Logout functionalities
 UI - design
 Deployed on Vercel
+Context API
 
 Tech used → 
   React js - fronted
   Apex chart - Pie chart
   Node js & express js - for login and new user rregister and logout functionalities [API]
-  MongoDB - to store the users
-  Tailwind CSS
+  MongoDB - to store the users details
+  Tailwind CSS - designing UI
+  Context API - 
+
 
 
 
