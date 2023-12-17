@@ -12,8 +12,8 @@ const Login = () => {
 
   const navigate = useNavigate();
   const [input,setInput] = useState({
-    userName:"root",
-    password:"123"
+    userName:"",
+    password:""
   })
   const handleChange = (e) => {
     const {name,value} = e.target;

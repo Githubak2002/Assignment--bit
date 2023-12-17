@@ -34,24 +34,23 @@ all other files are for backend.
 }
 
 
-  "versio":2,
-  "builds":[
+this worked Get/ -------------------
+{
+  "version": 2,
+  "builds": [
     {
-      "src":"*.js",
-      "use":"@vercel/node"
+      "src": "app.js", 
+      "use": "@vercel/node"
     }
   ],
-  "routes":[
+  "routes": [
     {
-      "src":"/(.*)",
-      "dest":"/"
+      "src": "/(.*)",
+      "dest": "app.js"
     }
   ]
 }
 
 
 
-
-
-prev content was
  -->
