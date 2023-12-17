@@ -25,7 +25,7 @@ const Login = () => {
   const submithandler = async (e) => {
     e.preventDefault();
     try{
-      const x = await axios.post(`${baseURl}/api/v1/user/login`, input);
+      const x = await axios.post(`https://assi-bit-bac.vercel.app/api/v1/user/login`, input);
       // console.log(x.data.user);
       const y = x.data.user;
       console.log(y);
