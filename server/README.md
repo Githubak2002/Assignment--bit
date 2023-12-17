@@ -1,7 +1,25 @@
-# simple-blog-app-mern
+# BIT assignment 
+
+Live demo - https://assignment-bit.vercel.app
 
 client - frontend folder
-all other files are for backend.
+server - backend folder with  mongoDB database and API.
+
+Responsive
+Simple Login, Register and Logout functionalities
+UI - design
+Deployed on Vercel
+
+Tech used → 
+  React js - fronted
+  Apex chart - Pie chart
+  Node js & express js - for login and new user rregister and logout functionalities [API]
+  MongoDB - to store the users
+  Tailwind CSS
+
+
+
+
 
 <!-- 
 - login sign up page with simple auth
@@ -54,3 +72,4 @@ this worked Get/ -------------------
 
 
  -->
+
