@@ -7,7 +7,7 @@ server - backend folder with  mongoDB database and API.
 <br/>
 
 - Responsive
-- Simple Login, Register and Logout functionalities
+- Simple Login, Register and Logout functionalities.
 - UI - design
 - Deployed on Vercel
 - Context API
