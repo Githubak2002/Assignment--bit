@@ -25,6 +25,9 @@ app.use(morgan('dev'));
 // })
 
 // routes
+app.use('/',(req,res) => {
+  res.send("Hello from seerver");
+})
 app.use('/api/v1/user',userRouter);
 
 const port = process.env.PORT || 8080;
