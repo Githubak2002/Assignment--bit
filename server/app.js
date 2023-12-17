@@ -25,10 +25,10 @@ app.use(morgan('dev'));
 // })
 
 // routes
-app.use('/',(req,res) => {
-  res.send("Hello from seerver");
-})
 app.use('/api/v1/user',userRouter);
+// app.use('/',(req,res) => {
+//   res.send("Hello from seerver");
+// })
 
 const port = process.env.PORT || 8080;
 const baseURL = process.env.BASE_URL;
