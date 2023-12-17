@@ -14,6 +14,7 @@ server - backend folder with  mongoDB database and API.
 
 <br/>
 Tech used → 
+
 - React js - fronted
 - Apex chart - Pie chart
 - Node js & express js - for login and new user rregister and logout functionalities [API]
