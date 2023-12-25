@@ -65,10 +65,10 @@ const Login = () => {
       <button className='my-3 bg-blue-500 p-2 rounded-xl font-bold hover:-translate-y-1 transition-all hover:scale-105' type='submit'>Login</button>
       
       <div className='flex'>
-        <h2>Ner user ?  
+        <h2>New user ?  
           <span className='hover:cursor-pointer text-blue-600 pl-2' 
           onClick={()=> navigate('/register')} 
-          > Sign-Up 
+          > Register 
           </span>
         </h2>
       </div>

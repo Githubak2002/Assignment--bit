@@ -1,11 +1,14 @@
 import React, { useContext } from 'react'
-import {useNavigate} from 'react-router-dom'
+import {Link, useFetcher, useNavigate} from 'react-router-dom'
 // import logo from '../assets/logo.png'
 
 import toast from 'react-hot-toast';
+import UserContext from '../context/userContext';
 
 const Nav = () => {
-
+  const {user} = useContext(UserContext);
+  console.log(user);
+  console.log(user.userName);
   const navigate = useNavigate();
   const loggout = () => {
     toast.success('Logged Out successfuly!');
@@ -22,8 +25,11 @@ const Nav = () => {
       </div>
 
       <div className='flexBetween gap-4'>
-        <h2>UserName</h2>
-        <button onClick={loggout} className='px-2 py-1 bg-yellow-500 rounded-xl text-slate-200'>LOGOUT</button>
+        { user.userName && <h2>{user.userName}</h2> }
+        <button onClick={loggout} className={` ${ user.userName ? "flex" : "hidden"} px-2 py-1 bg-yellow-500 rounded-xl text-slate-200`}>LOGOUT</button>
+        { !user.userName && <Link to='/'>LOGIN</Link> }
+        
+        
       </div>
 
     </nav>  
